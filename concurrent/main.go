@@ -25,12 +25,12 @@ var URLs = []string{
 func main() {
 	defer fmt.Println("main thread end")
 	defer func() {
-		fmt.Println("defer")
+		//fmt.Println("defer")
 	}()
 	fmt.Println("main thread start")
 
-	// basicGoroutine()
-	// basicChan()
+	//basicGoroutine()
+	//basicChan()
 
 	// fetchURL(URLs[0])
 
